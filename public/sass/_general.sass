@@ -6,9 +6,6 @@ body
 header
         background-color: $bg-hdr
         height: 10vh
-        display: grid
-        grid-template-columns: 1fr 1fr
-        align-items: center
         padding: 0 35vh
 
 main
@@ -24,20 +21,14 @@ main
         width: 60%
         margin : 10vh auto
         .cards-l
-            display: grid
-            grid-template-columns: repeat(2,1fr)
-            justify-content: center
-            align-items: center
             gap: 10vh
             margin: 10vh 0
             h3
                 @include cards-titre
             .cards-img
-                &:nth-child(odd)
-                    text-align: end
                 img
-                    border-radius: 50%
                     width: 300px
 
 footer
     height: 10vh
+
