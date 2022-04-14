@@ -38,6 +38,9 @@
     grid-template-columns: 1fr;
     gap: 2vh;
   }
+  main .cards .cards-l:nth-child(even) {
+    text-align: center;
+  }
   main .cards .cards-l .cards-img {
     text-align: center;
   }
