@@ -1,4 +1,12 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Hind";
+  src: url("../fonts/Hind-Bold.ttf");
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Light.ttf");
+}
 /*!
  * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -21259,14 +21267,25 @@ textarea.form-control-lg {
 * {
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lato";
 }
 
 header {
   background-color: #00004C;
 }
+header .menu ul {
+  margin: 0;
+}
 
 main .bgblue {
   background-color: #0000FF;
+  font-family: "Hind";
+  height: 60vh;
 }
 main .bgblue button {
   background-color: #EE0979;
