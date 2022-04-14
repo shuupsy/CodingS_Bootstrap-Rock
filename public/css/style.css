@@ -21277,9 +21277,17 @@ body {
 
 header {
   background-color: #00004C;
+  height: 8vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 0 20vh;
 }
 header .menu ul {
   margin: 0;
+}
+header .menu ul li {
+  padding: 0 20px;
 }
 
 main .bgblue {
@@ -21287,12 +21295,14 @@ main .bgblue {
   font-family: "Hind";
   height: 60vh;
 }
+main .bgblue h1, main .bgblue .h1 {
+  font-size: 4rem;
+}
 main .bgblue button {
   background-color: #EE0979;
   color: white;
   font-weight: bold;
   border: none;
-  border-radius: 30%;
   padding: 20px 40px;
 }
 

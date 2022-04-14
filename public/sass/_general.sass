@@ -4,16 +4,25 @@
 body
     font-family: 'Lato'
 header
-    background-color: $bg-hdr
-    .menu
-        ul
-            margin: 0
+        background-color: $bg-hdr
+        height: 8vh
+        display: grid
+        grid-template-columns: 1fr 1fr
+        align-items: center
+        padding: 0 20vh
+        .menu
+            ul
+                margin: 0
+                li
+                    padding: 0 20px
 
 main
     .bgblue
         background-color: $bg-blue
         font-family: 'Hind'
         height: 60vh
+        h1
+            font-size: 4rem
         button
             @include btn-p
 
