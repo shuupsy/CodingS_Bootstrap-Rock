@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) and (max-width:1024px)
+    header
+        padding: 0 20vh
+    main
+        .cards
+            width: 70%
+            .cards-l
+                .cards-img
+                    img
+                        width: 200px
+
+@media screen and (min-width: 320px) and (max-width:768px)
+    header
+        padding: 2vh 3vh
+        grid-template-columns: 1fr
+        height: auto
+        .menu
+            ul
+                flex-direction: column
+                justify-content: start
+                padding: 0
+                li
+                    padding: 0
+    main
+        .bgblue
+            h1
+                font-size: 3rem
+        .cards
+            width: 80%
+            .cards-l
+                grid-template-columns: 1fr
+                gap: 2vh
+                .cards-img
+                    text-align: center
+                    &:nth-child(odd)
+                        display: none
+                    img
+                        width: 200px

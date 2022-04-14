@@ -1,0 +1,49 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    padding: 0 20vh;
+  }
+
+  main .cards {
+    width: 70%;
+  }
+  main .cards .cards-l .cards-img img {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  header {
+    padding: 2vh 3vh;
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  header .menu ul {
+    flex-direction: column;
+    justify-content: start;
+    padding: 0;
+  }
+  header .menu ul li {
+    padding: 0;
+  }
+
+  main .bgblue h1 {
+    font-size: 3rem;
+  }
+  main .cards {
+    width: 80%;
+  }
+  main .cards .cards-l {
+    grid-template-columns: 1fr;
+    gap: 2vh;
+  }
+  main .cards .cards-l .cards-img {
+    text-align: center;
+  }
+  main .cards .cards-l .cards-img:nth-child(odd) {
+    display: none;
+  }
+  main .cards .cards-l .cards-img img {
+    width: 200px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
