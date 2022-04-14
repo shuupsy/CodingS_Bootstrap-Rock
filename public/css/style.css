@@ -21305,6 +21305,30 @@ main .bgblue button {
   border: none;
   padding: 20px 40px;
 }
+main .cards {
+  width: 60%;
+  margin: 10vh auto;
+}
+main .cards .cards-l {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+  margin: 10vh 0;
+}
+main .cards .cards-l h3, main .cards .cards-l .h3 {
+  color: black;
+  font-weight: 900;
+  font-family: "Hind";
+}
+main .cards .cards-l .cards-img:nth-child(odd) {
+  text-align: end;
+}
+main .cards .cards-l .cards-img img {
+  border-radius: 50%;
+  width: 300px;
+}
 
 footer {
   height: 8vh;
