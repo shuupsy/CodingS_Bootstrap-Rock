@@ -21277,11 +21277,11 @@ body {
 
 header {
   background-color: #00004C;
-  height: 8vh;
+  height: 10vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 0 20vh;
+  padding: 0 35vh;
 }
 header .menu ul {
   margin: 0;
@@ -21331,7 +21331,7 @@ main .cards .cards-l .cards-img img {
 }
 
 footer {
-  height: 8vh;
+  height: 10vh;
 }
 footer p {
   margin: 0;
