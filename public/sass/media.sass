@@ -12,8 +12,7 @@
 @media screen and (min-width: 320px) and (max-width:768px)
     body
         header
-            padding: 2vh 3vh
-            flex-direction: column
+            padding: 3vh 5vh
             align-items: flex-start
             height: auto
             .menu
@@ -21,8 +20,9 @@
                     flex-direction: column
                     justify-content: start
                     padding: 0
-                li
-                    padding: 0
+                    li
+                        &:first-child
+                            padding-right: 0 !important
         main
             .bgblue
                 h1

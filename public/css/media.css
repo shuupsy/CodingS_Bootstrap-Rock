@@ -12,8 +12,7 @@
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   body header {
-    padding: 2vh 3vh;
-    flex-direction: column;
+    padding: 3vh 5vh;
     align-items: flex-start;
     height: auto;
   }
@@ -22,8 +21,8 @@
     justify-content: start;
     padding: 0;
   }
-  body header .menu li {
-    padding: 0;
+  body header .menu ul li:first-child {
+    padding-right: 0 !important;
   }
   body main .bgblue h1 {
     font-size: 2rem;
