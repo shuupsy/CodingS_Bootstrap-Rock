@@ -10,33 +10,35 @@
                         width: 200px
 
 @media screen and (min-width: 320px) and (max-width:768px)
-    header
-        padding: 2vh 3vh
-        display: block !important
-        height: auto
-        .menu
-            ul
-                flex-direction: column
-                justify-content: start
-                padding: 0
+    body
+        header
+            padding: 2vh 3vh
+            flex-direction: column
+            align-items: flex-start
+            height: auto
+            .menu
+                ul
+                    flex-direction: column
+                    justify-content: start
+                    padding: 0
                 li
                     padding: 0
-    main
-        .bgblue
-            h1
-                font-size: 2rem
-            h2
-                font-size: 0.8rem
-        .cards
-            width: 80%
-            .cards-l
-                grid-template-columns: 1fr
-                gap: 2vh
-                &:nth-child(even)
-                    text-align: center
-                .cards-img
-                    text-align: center
-                    &:nth-child(odd)
-                        display: none
-                    img
-                        width: 200px
+        main
+            .bgblue
+                h1
+                    font-size: 2rem
+                h2
+                    font-size: 0.8rem
+            .cards
+                width: 80%
+                .cards-l
+                    grid-template-columns: 1fr
+                    gap: 2vh
+                    &:nth-child(even)
+                        text-align: center
+                    .cards-img
+                        text-align: center
+                        &:nth-child(odd)
+                            display: none
+                        img
+                            width: 200px

@@ -11,43 +11,43 @@
   }
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  header {
+  body header {
     padding: 2vh 3vh;
-    display: block !important;
+    flex-direction: column;
+    align-items: flex-start;
     height: auto;
   }
-  header .menu ul {
+  body header .menu ul {
     flex-direction: column;
     justify-content: start;
     padding: 0;
   }
-  header .menu ul li {
+  body header .menu li {
     padding: 0;
   }
-
-  main .bgblue h1 {
+  body main .bgblue h1 {
     font-size: 2rem;
   }
-  main .bgblue h2 {
+  body main .bgblue h2 {
     font-size: 0.8rem;
   }
-  main .cards {
+  body main .cards {
     width: 80%;
   }
-  main .cards .cards-l {
+  body main .cards .cards-l {
     grid-template-columns: 1fr;
     gap: 2vh;
   }
-  main .cards .cards-l:nth-child(even) {
+  body main .cards .cards-l:nth-child(even) {
     text-align: center;
   }
-  main .cards .cards-l .cards-img {
+  body main .cards .cards-l .cards-img {
     text-align: center;
   }
-  main .cards .cards-l .cards-img:nth-child(odd) {
+  body main .cards .cards-l .cards-img:nth-child(odd) {
     display: none;
   }
-  main .cards .cards-l .cards-img img {
+  body main .cards .cards-l .cards-img img {
     width: 200px;
   }
 }
